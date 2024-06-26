@@ -1,0 +1,64 @@
+* {
+padding: 0;
+margin: 0;    
+}
+
+body {
+    width: 100%;
+    height: 3790px;
+    background-color: azure;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    width: 100%;
+    text-align: center;
+}
+
+main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section {
+    border: 1px solid black;
+    width: 80%;
+    margin-bottom: 5px;
+}
+
+.topo {
+    height: 45px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.topo-texto {
+    text-align: center;
+}
+
+
+.conteudo1 {
+    height: 540px;
+
+}
+
+.programa {
+    height: 225px;
+
+}
+
+.palestrantes {
+    height: 1200x;
+
+}
+
+.patrocinadores {
+    height: 500px;
+}
