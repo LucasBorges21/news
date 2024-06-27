@@ -9,7 +9,7 @@ html {
 
 body {
     width: 700px;
-    height: 4000px;
+    height: 3870px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -32,7 +32,6 @@ main {
 section {
     width: 100%;
     margin-bottom: 5px;
-    border: 1px solid black;
 }
 
 .topo {
@@ -207,7 +206,7 @@ section {
 
 
 .patrocinadores {
-    height: 1800px;
+    height: 1600px;
     display: flex;
     flex-direction: column;
     margin-top: -50px;
@@ -312,31 +311,33 @@ section {
 
 .telefones {
     width: 100%;
-    height: 340px;
-    border: 1px solid black;
-    margin-top: 20px;
+    height: 140px;
+    margin-top: 10px;
     display: flex;
     flex-direction: column;
 }
 
-.tel1 {
+.tel1, .tel2 {
     width: 60%;
     height: 45%;
-    border: 1px solid black;
-
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 
-.tel2 {
-    width: 60%;
-    height: 45%;
-    border: 1px solid black;
-
+.tel1-numero, .tel2-numero {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .solicite-info {
     width: 100%;
     height: 10%;
-    border: 1px solid black;
     text-align: center;
     display: flex;
     align-items: center;
@@ -357,6 +358,7 @@ section {
     height: 30%;
     text-align: center;
     color: white;
+    margin-top: 5px;
 }
 
 .c-logos {
