@@ -34,6 +34,8 @@ section {
     margin-bottom: 5px;
 }
 
+
+
 .topo {
     height: 45px;
     display: flex;
@@ -161,32 +163,34 @@ section {
     width: 100%;
     height: 50%;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+
 }
 
 .palestrante {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-around;
-    width: 100%;
-    height: 60%;
-}
-
-.texto-palestrante {
-    width: 100%;
-    height: 40%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-}
-
-.texto {
     width: 33%;
     height: 100%;
+
+}
+
+.p-imagem {
+    width: 100%;
+    height: 60%;
+    display: flex;
+    justify-content: center;
+}
+
+.p-texto {
+    width: 100%;
+    height: 40%;
     display: flex;
     flex-direction: column;
     text-align: center;
 }
+
 
 .nome {
     width: 100%;
@@ -399,6 +403,42 @@ section {
     cursor: pointer;
 }
 
-@media screen and (max-width: 700px) {
-   
+@media (max-width: 700px) {
+
+    body {
+        width: 100%;
+    }
+
+    .palestrantes {
+        height: 100%;
+    }
+
+    .palestrante, .linha1, .linha2 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .seja-patrocinador, .valor-investimento, .patro1 {
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        
+    }
+
+    .p-foto img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .programa-texto4 {
+        margin-bottom: 10px;
+    }
+
+    .confira-palestrantes {
+        margin-top: 10px;
+    }
+
+    .contato {
+        
+    }
 }
