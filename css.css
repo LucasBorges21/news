@@ -438,7 +438,16 @@ section {
         margin-top: 10px;
     }
 
+    .c-titulo {
+        margin-bottom: 15px;
+        font-size: 15px;
+    }
+
     .contato {
-        
+        margin-top: 15px;
+    }
+
+    .tel1 p, .tel2 p {
+        font-size: 12px;
     }
 }
