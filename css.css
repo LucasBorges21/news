@@ -9,7 +9,7 @@ html {
 
 body {
     width: 700px;
-    height: 3870px;
+    height: 3220px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -40,7 +40,6 @@ section {
     flex-direction: row;
     align-items: center;
     justify-content: center;
-
 }
 
 .topo-texto {
@@ -69,7 +68,7 @@ section {
 
 .conteudo1 {
     height: 540px;
-    background-image: url(banner.jpeg);
+    background-image: url(banner2.jpg);
     background-size: cover;
     cursor: pointer;
 }
@@ -152,15 +151,15 @@ section {
 
 
 .palestrantes {
-    height: 1200px;
+    height: 600px;
     display: flex;
     flex-direction: column;
     margin-bottom: 50px;
 }
 
-.linha1, .linha2, .linha3, .linha4 {
+.linha1, .linha2 {
     width: 100%;
-    height: 25%;
+    height: 50%;
     display: flex;
     flex-direction: column;
 }
@@ -207,7 +206,7 @@ section {
 
 
 .patrocinadores {
-    height: 1600px;
+    height: 1550px;
     display: flex;
     flex-direction: column;
     margin-top: -50px;
@@ -364,6 +363,7 @@ section {
     text-align: center;
     display: flex;
     align-items: center;
+    margin-bottom: -10px;
 }
 
 .contato {
@@ -397,4 +397,8 @@ section {
     width: 60%;
     height: 60%;
     cursor: pointer;
+}
+
+@media screen and (max-width: 700px) {
+   
 }
