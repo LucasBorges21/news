@@ -420,6 +420,10 @@ section {
         align-items: center;
     }
 
+    .palestrante {
+        margin-bottom: 15px;
+    }
+
     .seja-patrocinador, .valor-investimento, .patro1 {
         align-items: center;
         justify-content: center;
