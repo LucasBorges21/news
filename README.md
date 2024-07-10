@@ -6,7 +6,8 @@ Comecei com o design simples da mensagem através do HTML/CSS. Posteriormente, f
 
 Após essas adaptações, configurei na AWS um Bucket S3, para que todas as imagens e HTML fossem visualizadas publicamente e tivessem uma URL
 
-## Estrutura do Projeto
+# Estrutura do Projeto
+
 - Criação/Definição do Design das Artes e Imagens
 - Criação do Estrutura HTML
 - Estilização CSS
