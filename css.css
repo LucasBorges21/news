@@ -1,0 +1,473 @@
+* {
+padding: 0;
+margin:  0 auto;    
+}
+
+html {
+    background-color: #F6F6F6;
+}
+
+body {
+    width: 700px;
+    height: 3390px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+}
+
+header {
+    width: 100%;
+    text-align: center;
+}
+
+main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+section {
+    width: 100%;
+}
+
+
+
+.topo {
+    height: 45px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.topo-texto {
+    text-align: center;
+}
+
+.nome-evento {
+    height: 100px;
+
+}
+
+.titulo h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #105A91;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.subtitulo p {
+    font-family: arial, 'helvetica neue', helvetica, sans-serif;
+    color: #D9A600;
+    text-align: center;
+    margin-top: 10px;
+
+}
+
+.conteudo1 {
+    height: 540px;
+    background-image: url(iiforumrhdigital.jpg);
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+}
+
+.programa {
+    height: 225px;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    justify-content: center;
+    text-align: center;
+}
+
+.programa-texto {
+    font-family: arial, 'helvetica neue', helvetica, sans-serif;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.programa-texto2 {
+    font-family: arial, 'helvetica neue', helvetica, sans-serif;
+    width: 100%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    color: #D9A600;
+}
+
+.programa-texto3 {
+    width: 100%;
+    height: 40%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.elemento-tx3 {
+    height: 100%;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.elemento-tx3 p {
+    font-family: arial, 'helvetica neue', helvetica, sans-serif;
+    color: #105A91;
+}
+
+.elemento-tx3 h3 {
+    background-color: #0E4471;
+    color: white;
+}
+
+
+.programa-texto4 {
+    font-family: arial, 'helvetica neue', helvetica, sans-serif;
+    width: 100%;
+    height: 20%;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+.confira-palestrantes {
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    font-family: arial, 'helvetica neue', helvetica, sans-serif;
+    color: #105A91;
+    background-color: rgb(239, 239, 239);
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+
+.palestrantes {
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+
+.linha1, .linha2, .linha3 {
+    width: 100%;
+    height: 33,3%;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.palestrante {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 33%;
+    height: 100%;
+
+}
+
+.p-imagem {
+    width: 100%;
+    height: 60%;
+    display: flex;
+    justify-content: center;
+}
+
+.p-texto {
+    width: 100%;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+
+.nome {
+    width: 100%;
+    height: 20%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #105A91;
+}
+
+.cargo {
+    width: 100%;
+    height: 80%;
+    font-family: arial, 'helvetica neue', helvetica, sans-serif;
+    color: #D9A600;
+    font-size: 12px;
+}
+
+
+.patrocinadores {
+    height: 1550px;
+    display: flex;
+    flex-direction: column;
+    margin-top: -50px;
+}
+
+.patro1 {
+    width: 80%;
+    height: 65px;
+    background-color: #D9A600;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    color: white;
+    font-family: arial, 'helvetica neue', helvetica, sans-serif;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.patro1 a {
+    color: white;
+}
+
+.patro2 {
+    width: 100%;
+    height: 80px;
+    color: rgb(0, 67, 125);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.patro2 p {
+    font-size: 14px;
+    font-family: arial, 'helvetica neue', helvetica, sans-serif;
+
+}
+
+.patro2 strong {
+    font-size: 28px;
+    font-family: arial, 'helvetica neue', helvetica, sans-serif;
+
+}
+
+
+.p-titulo {
+    width: 100%;
+    height: 70px;
+    font-family: arial, 'helvetica neue', helvetica, sans-serif;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(239, 239, 239);
+}
+
+.p-titulo p {
+    font-family: arial, 'helvetica neue', helvetica, sans-serif;
+    color: #D9A600;
+}
+
+.p-foto {
+    width: 100%;
+    height: 160px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.p-titulo2 {
+    width: 80%;
+    border-radius: 10px;
+    height: 55px;
+    font-family: arial, 'helvetica neue', helvetica, sans-serif;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(239, 239, 239);
+}
+
+.p-titulo2 p {
+    font-family: arial, 'helvetica neue', helvetica, sans-serif;
+    font-size: 14px;
+    cursor: pointer;
+
+}
+
+.seja-patrocinador {
+    width: 80%;
+    height: 40px;
+    margin-top: 45px;
+    font-family: arial, 'helvetica neue', helvetica, sans-serif;
+    color: #105A91;
+    display: flex;
+    justify-content: center;
+    font-size: 21px;
+}
+
+.valor-investimento {
+    width: 55%;
+    height: 50px;
+    margin-top: 35px;
+    font-family: arial, 'helvetica neue', helvetica, sans-serif;
+    background-color: #D9A600;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    cursor: pointer;
+}
+
+.valor-investimento a {
+    color: white;
+}
+
+.mais-info {
+    width: 80%;
+    height: 45px;
+    font-size: 14px;
+    margin-top: 30px;
+    display: flex;
+    text-align: center;
+    font-family: arial, 'helvetica neue', helvetica, sans-serif;
+}
+
+.telefones {
+    width: 100%;
+    height: 140px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.tel1, .tel2 {
+    width: 60%;
+    height: 45%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: arial, 'helvetica neue', helvetica, sans-serif;
+}
+
+.tel1-numero, .tel2-numero {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: arial, 'helvetica neue', helvetica, sans-serif;
+}
+
+.solicite-info {
+    width: 100%;
+    height: 10%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    margin-bottom: -10px;
+}
+
+.contato {
+    width: 100%;
+    height: 80px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    background-color: #0E4471;
+    justify-content: center;
+}
+
+.c-titulo {
+    width: 100%;
+    height: 30%;
+    text-align: center;
+    color: white;
+    margin-top: 5px;
+}
+
+.c-logos {
+    width: 15%;
+    height: 70%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    gap: 5px;
+}
+
+.c-logos img {
+    width: 60%;
+    height: 60%;
+    cursor: pointer;
+}
+
+@media (max-width: 700px) {
+
+    body {
+        width: 100%;
+        height: 90%;
+    }
+
+    .palestrantes {
+        height: 60%;
+    }
+
+    .palestrante, .linha1, .linha2, .linha3 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .palestrante {
+        margin-bottom: 15px;
+    }
+
+    .seja-patrocinador, .valor-investimento, .patro1 {
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        
+    }
+
+    .p-foto img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .programa-texto4 {
+        margin-bottom: 10px;
+    }
+
+    .programa-texto {
+        margin-bottom: 10px;
+    }
+
+    .confira-palestrantes {
+        margin-top: 10px;
+    }
+
+    .c-titulo {
+        margin-bottom: 15px;
+        font-size: 15px;
+    }
+
+    .contato {
+        margin-top: 15px;
+    }
+
+    .tel1 p, .tel2 p {
+        font-size: 12px;
+    }
+
+    .patrocinadores {
+        margin-top: 10px;
+    }
+}
